@@ -1,0 +1,12 @@
+*** Settings ***
+Library  proc.py
+
+*** Test Cases ***
+Full Game No Strikes No Spares
+    When I bowl "(9 0 9 0 9 0 9 0 9 0 9 0 9 0 9 0 9 0 9 0)"
+    Then I should score a 90
+
+*** Keywords ***
+I bowl "${struct_as_string}"     ${bowled}=           bowl           ${struct_as_string}
+                                 set suite variable   ${bowled}
+I should score a ${score:\d+}    should be equal      ${bowled}      ${score}
