@@ -6,6 +6,10 @@ Full Game No Strikes No Spares
     When I bowl "(9 0 9 0 9 0 9 0 9 0 9 0 9 0 9 0 9 0 9 0)"
     Then I should score a 90
 
+Full Game No Strikes No Spares, Alternate Score
+    When I bowl "(4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3)"
+    Then I should score a 70
+
 *** Keywords ***
 I bowl "${struct_as_string}"     ${bowled}=           bowl           ${struct_as_string}
                                  set suite variable   ${bowled}
