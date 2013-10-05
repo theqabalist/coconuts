@@ -30,6 +30,14 @@ Perfect Game
     When I bowl "(10 10 10 10 10 10 10 10 10 10 10 10)"
     Then I should score a 300
 
+Partial Game, No Strikes/Spares in Most Current Throw
+    When I bowl "(5 4 3 4)"
+    Then I should score a 16
+
+Partial Game, No Strikes, Spare at the End
+    When I bowl "(5 5 4 6)"
+    Then I should score a 24
+
 *** Keywords ***
 I bowl "${struct_as_string}"     ${bowled}=           bowl           ${struct_as_string}
                                  set suite variable   ${bowled}
