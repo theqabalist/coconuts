@@ -26,6 +26,10 @@ Full Game Irregular 10th Frame, Spare
     When I bowl "(10 9 1 8 1 7 1 10 10 10 9 1 8 2 9 1 2)"
     Then I should score a 183
 
+Perfect Game
+    When I bowl "(10 10 10 10 10 10 10 10 10 10 10 10)"
+    Then I should score a 300
+
 *** Keywords ***
 I bowl "${struct_as_string}"     ${bowled}=           bowl           ${struct_as_string}
                                  set suite variable   ${bowled}
