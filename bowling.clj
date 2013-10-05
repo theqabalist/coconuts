@@ -1,12 +1,10 @@
 (defmulti calculate-special
     (fn [one two coll]
         (cond
-            (= 10 one) :strike
             (= 10 (+ one two)) :spare
             :else :regular)))
 (defmethod calculate-special :regular [one two coll] (+ one two))
 (defmethod calculate-special :spare [one two coll] (+ one two (first coll)))
-(defmethod calculate-special :strike [one two coll] (+ one two (first coll)))
 
 (defmulti pins-in-next-frame (fn [coll] (= 10 (first coll))))
 (defmethod pins-in-next-frame true [coll] 10)
