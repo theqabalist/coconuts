@@ -20,7 +20,11 @@ Full Game Strikes, No Doubles, No Spares
 
 Full Game Strikes, Multi Strikes, Spares
     When I bowl "(10 9 1 8 1 7 1 10 10 10 9 1 8 2 9 0)"
-    Then I should score a 161
+    Then I should score a 180
+
+Full Game Irregular 10th Frame, Spare
+    When I bowl "(10 9 1 8 1 7 1 10 10 10 9 1 8 2 9 1 2)"
+    Then I should score a 183
 
 *** Keywords ***
 I bowl "${struct_as_string}"     ${bowled}=           bowl           ${struct_as_string}
