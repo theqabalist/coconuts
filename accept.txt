@@ -14,6 +14,10 @@ Full Game No Strikes, Spares
     When I bowl "(4 6 5 5 9 0 4 6 5 5 9 0 1 1 1 1 1 1 1 1)"
     Then I should score a 94
 
+Full Game Strikes, No Spares
+    When I bowl "(10 5 4 10 3 4 10 1 2 10 10 9 0 8 1)"
+    Then I should score a 125
+
 *** Keywords ***
 I bowl "${struct_as_string}"     ${bowled}=           bowl           ${struct_as_string}
                                  set suite variable   ${bowled}
