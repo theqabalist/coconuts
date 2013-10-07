@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20131005 08:49:50.432" generator="Robot 2.8.1 (Python 2.7.2 on darwin)">
+<robot generated="20131007 09:48:57.410" generator="Robot 2.8.1 (Python 2.7.2 on darwin)">
 <suite source="/Users/bkeown/Dropbox/code/github.com/theqabalist/coconuts" id="s1" name="Coconuts">
 <suite source="/Users/bkeown/Dropbox/code/github.com/theqabalist/coconuts/accept.txt" id="s1-s1" name="Accept">
 <test id="s1-s1-t1" name="Full Game No Strikes No Spares">
@@ -12,18 +12,18 @@
 <arguments>
 <arg>${struct_as_string}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:51.510" level="INFO">${bowled} = 90</msg>
-<status status="PASS" endtime="20131005 08:49:51.509" starttime="20131005 08:49:50.465"></status>
+<msg timestamp="20131007 09:48:58.474" level="INFO">${bowled} = 90</msg>
+<status status="PASS" endtime="20131007 09:48:58.474" starttime="20131007 09:48:57.442"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Set Suite Variable">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${bowled}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:51.511" level="INFO">${bowled} = 90</msg>
-<status status="PASS" endtime="20131005 08:49:51.511" starttime="20131005 08:49:51.510"></status>
+<msg timestamp="20131007 09:48:58.475" level="INFO">${bowled} = 90</msg>
+<status status="PASS" endtime="20131007 09:48:58.475" starttime="20131007 09:48:58.475"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:51.511" starttime="20131005 08:49:50.464"></status>
+<status status="PASS" endtime="20131007 09:48:58.475" starttime="20131007 09:48:57.442"></status>
 </kw>
 <kw type="kw" name="Then I should score a 90">
 <doc></doc>
@@ -35,17 +35,17 @@
 <arg>${bowled}</arg>
 <arg>${score}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:51.512" level="INFO">Argument types are:
+<msg timestamp="20131007 09:48:58.477" level="INFO">Argument types are:
 &lt;type 'str'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" endtime="20131005 08:49:51.512" starttime="20131005 08:49:51.512"></status>
+<status status="PASS" endtime="20131007 09:48:58.477" starttime="20131007 09:48:58.476"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:51.512" starttime="20131005 08:49:51.511"></status>
+<status status="PASS" endtime="20131007 09:48:58.477" starttime="20131007 09:48:58.476"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131005 08:49:51.513" critical="yes" starttime="20131005 08:49:50.463"></status>
+<status status="PASS" endtime="20131007 09:48:58.477" critical="yes" starttime="20131007 09:48:57.441"></status>
 </test>
 <test id="s1-s1-t2" name="Full Game No Strikes No Spares, Alternate Score">
 <kw type="kw" name="When I bowl &quot;(4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3)&quot;">
@@ -57,18 +57,18 @@
 <arguments>
 <arg>${struct_as_string}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:52.551" level="INFO">${bowled} = 70</msg>
-<status status="PASS" endtime="20131005 08:49:52.550" starttime="20131005 08:49:51.514"></status>
+<msg timestamp="20131007 09:48:59.527" level="INFO">${bowled} = 70</msg>
+<status status="PASS" endtime="20131007 09:48:59.526" starttime="20131007 09:48:58.479"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Set Suite Variable">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${bowled}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:52.552" level="INFO">${bowled} = 70</msg>
-<status status="PASS" endtime="20131005 08:49:52.552" starttime="20131005 08:49:52.551"></status>
+<msg timestamp="20131007 09:48:59.527" level="INFO">${bowled} = 70</msg>
+<status status="PASS" endtime="20131007 09:48:59.527" starttime="20131007 09:48:59.527"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:52.552" starttime="20131005 08:49:51.514"></status>
+<status status="PASS" endtime="20131007 09:48:59.528" starttime="20131007 09:48:58.478"></status>
 </kw>
 <kw type="kw" name="Then I should score a 70">
 <doc></doc>
@@ -80,17 +80,17 @@
 <arg>${bowled}</arg>
 <arg>${score}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:52.553" level="INFO">Argument types are:
+<msg timestamp="20131007 09:48:59.529" level="INFO">Argument types are:
 &lt;type 'str'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" endtime="20131005 08:49:52.553" starttime="20131005 08:49:52.553"></status>
+<status status="PASS" endtime="20131007 09:48:59.529" starttime="20131007 09:48:59.529"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:52.553" starttime="20131005 08:49:52.552"></status>
+<status status="PASS" endtime="20131007 09:48:59.529" starttime="20131007 09:48:59.528"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131005 08:49:52.554" critical="yes" starttime="20131005 08:49:51.513"></status>
+<status status="PASS" endtime="20131007 09:48:59.529" critical="yes" starttime="20131007 09:48:58.478"></status>
 </test>
 <test id="s1-s1-t3" name="Full Game No Strikes, Spares">
 <kw type="kw" name="When I bowl &quot;(4 6 5 5 9 0 4 6 5 5 9 0 1 1 1 1 1 1 1 1)&quot;">
@@ -102,18 +102,18 @@
 <arguments>
 <arg>${struct_as_string}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:53.610" level="INFO">${bowled} = 94</msg>
-<status status="PASS" endtime="20131005 08:49:53.610" starttime="20131005 08:49:52.555"></status>
+<msg timestamp="20131007 09:49:00.583" level="INFO">${bowled} = 94</msg>
+<status status="PASS" endtime="20131007 09:49:00.583" starttime="20131007 09:48:59.531"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Set Suite Variable">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${bowled}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:53.611" level="INFO">${bowled} = 94</msg>
-<status status="PASS" endtime="20131005 08:49:53.611" starttime="20131005 08:49:53.611"></status>
+<msg timestamp="20131007 09:49:00.584" level="INFO">${bowled} = 94</msg>
+<status status="PASS" endtime="20131007 09:49:00.584" starttime="20131007 09:49:00.584"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:53.611" starttime="20131005 08:49:52.555"></status>
+<status status="PASS" endtime="20131007 09:49:00.584" starttime="20131007 09:48:59.530"></status>
 </kw>
 <kw type="kw" name="Then I should score a 94">
 <doc></doc>
@@ -125,17 +125,17 @@
 <arg>${bowled}</arg>
 <arg>${score}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:53.612" level="INFO">Argument types are:
+<msg timestamp="20131007 09:49:00.586" level="INFO">Argument types are:
 &lt;type 'str'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" endtime="20131005 08:49:53.613" starttime="20131005 08:49:53.612"></status>
+<status status="PASS" endtime="20131007 09:49:00.586" starttime="20131007 09:49:00.585"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:53.613" starttime="20131005 08:49:53.612"></status>
+<status status="PASS" endtime="20131007 09:49:00.586" starttime="20131007 09:49:00.585"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131005 08:49:53.613" critical="yes" starttime="20131005 08:49:52.554"></status>
+<status status="PASS" endtime="20131007 09:49:00.586" critical="yes" starttime="20131007 09:48:59.530"></status>
 </test>
 <test id="s1-s1-t4" name="Full Game Strikes, No Doubles, No Spares">
 <kw type="kw" name="When I bowl &quot;(10 5 4 10 3 4 10 1 2 10 9 0 9 0 8 1)&quot;">
@@ -147,18 +147,18 @@
 <arguments>
 <arg>${struct_as_string}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:54.648" level="INFO">${bowled} = 114</msg>
-<status status="PASS" endtime="20131005 08:49:54.647" starttime="20131005 08:49:53.614"></status>
+<msg timestamp="20131007 09:49:01.624" level="INFO">${bowled} = 114</msg>
+<status status="PASS" endtime="20131007 09:49:01.623" starttime="20131007 09:49:00.588"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Set Suite Variable">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${bowled}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:54.649" level="INFO">${bowled} = 114</msg>
-<status status="PASS" endtime="20131005 08:49:54.649" starttime="20131005 08:49:54.648"></status>
+<msg timestamp="20131007 09:49:01.625" level="INFO">${bowled} = 114</msg>
+<status status="PASS" endtime="20131007 09:49:01.625" starttime="20131007 09:49:01.624"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:54.649" starttime="20131005 08:49:53.614"></status>
+<status status="PASS" endtime="20131007 09:49:01.625" starttime="20131007 09:49:00.587"></status>
 </kw>
 <kw type="kw" name="Then I should score a 114">
 <doc></doc>
@@ -170,17 +170,17 @@
 <arg>${bowled}</arg>
 <arg>${score}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:54.650" level="INFO">Argument types are:
+<msg timestamp="20131007 09:49:01.627" level="INFO">Argument types are:
 &lt;type 'str'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" endtime="20131005 08:49:54.650" starttime="20131005 08:49:54.650"></status>
+<status status="PASS" endtime="20131007 09:49:01.627" starttime="20131007 09:49:01.626"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:54.651" starttime="20131005 08:49:54.650"></status>
+<status status="PASS" endtime="20131007 09:49:01.627" starttime="20131007 09:49:01.626"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131005 08:49:54.651" critical="yes" starttime="20131005 08:49:53.613"></status>
+<status status="PASS" endtime="20131007 09:49:01.627" critical="yes" starttime="20131007 09:49:00.586"></status>
 </test>
 <test id="s1-s1-t5" name="Full Game Strikes, Multi Strikes, Spares">
 <kw type="kw" name="When I bowl &quot;(10 9 1 8 1 7 1 10 10 10 9 1 8 2 9 0)&quot;">
@@ -192,18 +192,18 @@
 <arguments>
 <arg>${struct_as_string}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:55.684" level="INFO">${bowled} = 180</msg>
-<status status="PASS" endtime="20131005 08:49:55.683" starttime="20131005 08:49:54.652"></status>
+<msg timestamp="20131007 09:49:02.650" level="INFO">${bowled} = 180</msg>
+<status status="PASS" endtime="20131007 09:49:02.650" starttime="20131007 09:49:01.629"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Set Suite Variable">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${bowled}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:55.685" level="INFO">${bowled} = 180</msg>
-<status status="PASS" endtime="20131005 08:49:55.685" starttime="20131005 08:49:55.684"></status>
+<msg timestamp="20131007 09:49:02.651" level="INFO">${bowled} = 180</msg>
+<status status="PASS" endtime="20131007 09:49:02.651" starttime="20131007 09:49:02.651"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:55.685" starttime="20131005 08:49:54.652"></status>
+<status status="PASS" endtime="20131007 09:49:02.652" starttime="20131007 09:49:01.629"></status>
 </kw>
 <kw type="kw" name="Then I should score a 180">
 <doc></doc>
@@ -215,17 +215,17 @@
 <arg>${bowled}</arg>
 <arg>${score}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:55.687" level="INFO">Argument types are:
+<msg timestamp="20131007 09:49:02.653" level="INFO">Argument types are:
 &lt;type 'str'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" endtime="20131005 08:49:55.687" starttime="20131005 08:49:55.686"></status>
+<status status="PASS" endtime="20131007 09:49:02.653" starttime="20131007 09:49:02.652"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:55.687" starttime="20131005 08:49:55.685"></status>
+<status status="PASS" endtime="20131007 09:49:02.653" starttime="20131007 09:49:02.652"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131005 08:49:55.687" critical="yes" starttime="20131005 08:49:54.651"></status>
+<status status="PASS" endtime="20131007 09:49:02.653" critical="yes" starttime="20131007 09:49:01.628"></status>
 </test>
 <test id="s1-s1-t6" name="Full Game Irregular 10th Frame, Spare">
 <kw type="kw" name="When I bowl &quot;(10 9 1 8 1 7 1 10 10 10 9 1 8 2 9 1 2)&quot;">
@@ -237,18 +237,18 @@
 <arguments>
 <arg>${struct_as_string}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:56.720" level="INFO">${bowled} = 183</msg>
-<status status="PASS" endtime="20131005 08:49:56.719" starttime="20131005 08:49:55.689"></status>
+<msg timestamp="20131007 09:49:03.678" level="INFO">${bowled} = 183</msg>
+<status status="PASS" endtime="20131007 09:49:03.678" starttime="20131007 09:49:02.655"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Set Suite Variable">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${bowled}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:56.721" level="INFO">${bowled} = 183</msg>
-<status status="PASS" endtime="20131005 08:49:56.721" starttime="20131005 08:49:56.721"></status>
+<msg timestamp="20131007 09:49:03.679" level="INFO">${bowled} = 183</msg>
+<status status="PASS" endtime="20131007 09:49:03.679" starttime="20131007 09:49:03.679"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:56.721" starttime="20131005 08:49:55.688"></status>
+<status status="PASS" endtime="20131007 09:49:03.679" starttime="20131007 09:49:02.654"></status>
 </kw>
 <kw type="kw" name="Then I should score a 183">
 <doc></doc>
@@ -260,17 +260,17 @@
 <arg>${bowled}</arg>
 <arg>${score}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:56.723" level="INFO">Argument types are:
+<msg timestamp="20131007 09:49:03.681" level="INFO">Argument types are:
 &lt;type 'str'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" endtime="20131005 08:49:56.723" starttime="20131005 08:49:56.723"></status>
+<status status="PASS" endtime="20131007 09:49:03.681" starttime="20131007 09:49:03.680"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:56.723" starttime="20131005 08:49:56.722"></status>
+<status status="PASS" endtime="20131007 09:49:03.681" starttime="20131007 09:49:03.680"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131005 08:49:56.724" critical="yes" starttime="20131005 08:49:55.687"></status>
+<status status="PASS" endtime="20131007 09:49:03.681" critical="yes" starttime="20131007 09:49:02.653"></status>
 </test>
 <test id="s1-s1-t7" name="Perfect Game">
 <kw type="kw" name="When I bowl &quot;(10 10 10 10 10 10 10 10 10 10 10 10)&quot;">
@@ -282,18 +282,18 @@
 <arguments>
 <arg>${struct_as_string}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:57.765" level="INFO">${bowled} = 300</msg>
-<status status="PASS" endtime="20131005 08:49:57.764" starttime="20131005 08:49:56.725"></status>
+<msg timestamp="20131007 09:49:04.710" level="INFO">${bowled} = 300</msg>
+<status status="PASS" endtime="20131007 09:49:04.709" starttime="20131007 09:49:03.682"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Set Suite Variable">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${bowled}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:57.766" level="INFO">${bowled} = 300</msg>
-<status status="PASS" endtime="20131005 08:49:57.766" starttime="20131005 08:49:57.765"></status>
+<msg timestamp="20131007 09:49:04.710" level="INFO">${bowled} = 300</msg>
+<status status="PASS" endtime="20131007 09:49:04.710" starttime="20131007 09:49:04.710"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:57.766" starttime="20131005 08:49:56.725"></status>
+<status status="PASS" endtime="20131007 09:49:04.711" starttime="20131007 09:49:03.682"></status>
 </kw>
 <kw type="kw" name="Then I should score a 300">
 <doc></doc>
@@ -305,17 +305,17 @@
 <arg>${bowled}</arg>
 <arg>${score}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:57.767" level="INFO">Argument types are:
+<msg timestamp="20131007 09:49:04.712" level="INFO">Argument types are:
 &lt;type 'str'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" endtime="20131005 08:49:57.767" starttime="20131005 08:49:57.767"></status>
+<status status="PASS" endtime="20131007 09:49:04.712" starttime="20131007 09:49:04.712"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:57.767" starttime="20131005 08:49:57.767"></status>
+<status status="PASS" endtime="20131007 09:49:04.712" starttime="20131007 09:49:04.711"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131005 08:49:57.768" critical="yes" starttime="20131005 08:49:56.724"></status>
+<status status="PASS" endtime="20131007 09:49:04.712" critical="yes" starttime="20131007 09:49:03.681"></status>
 </test>
 <test id="s1-s1-t8" name="Partial Game, No Strikes/Spares in Most Current Throw">
 <kw type="kw" name="When I bowl &quot;(5 4 3 4)&quot;">
@@ -327,18 +327,18 @@
 <arguments>
 <arg>${struct_as_string}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:58.805" level="INFO">${bowled} = 16</msg>
-<status status="PASS" endtime="20131005 08:49:58.805" starttime="20131005 08:49:57.769"></status>
+<msg timestamp="20131007 09:49:05.738" level="INFO">${bowled} = 16</msg>
+<status status="PASS" endtime="20131007 09:49:05.738" starttime="20131007 09:49:04.714"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Set Suite Variable">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${bowled}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:58.806" level="INFO">${bowled} = 16</msg>
-<status status="PASS" endtime="20131005 08:49:58.806" starttime="20131005 08:49:58.806"></status>
+<msg timestamp="20131007 09:49:05.739" level="INFO">${bowled} = 16</msg>
+<status status="PASS" endtime="20131007 09:49:05.739" starttime="20131007 09:49:05.739"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:58.806" starttime="20131005 08:49:57.769"></status>
+<status status="PASS" endtime="20131007 09:49:05.740" starttime="20131007 09:49:04.714"></status>
 </kw>
 <kw type="kw" name="Then I should score a 16">
 <doc></doc>
@@ -350,17 +350,17 @@
 <arg>${bowled}</arg>
 <arg>${score}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:58.807" level="INFO">Argument types are:
+<msg timestamp="20131007 09:49:05.741" level="INFO">Argument types are:
 &lt;type 'str'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" endtime="20131005 08:49:58.808" starttime="20131005 08:49:58.807"></status>
+<status status="PASS" endtime="20131007 09:49:05.741" starttime="20131007 09:49:05.741"></status>
 </kw>
-<status status="PASS" endtime="20131005 08:49:58.808" starttime="20131005 08:49:58.807"></status>
+<status status="PASS" endtime="20131007 09:49:05.741" starttime="20131007 09:49:05.740"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131005 08:49:58.808" critical="yes" starttime="20131005 08:49:57.768"></status>
+<status status="PASS" endtime="20131007 09:49:05.741" critical="yes" starttime="20131007 09:49:04.713"></status>
 </test>
 <test id="s1-s1-t9" name="Partial Game, No Strikes, Spare at the End">
 <kw type="kw" name="When I bowl &quot;(5 5 4 6)&quot;">
@@ -372,36 +372,61 @@
 <arguments>
 <arg>${struct_as_string}</arg>
 </arguments>
-<msg timestamp="20131005 08:49:59.832" level="FAIL">AssertionError</msg>
-<status status="FAIL" endtime="20131005 08:49:59.833" starttime="20131005 08:49:58.809"></status>
+<msg timestamp="20131007 09:49:06.760" level="INFO">${bowled} = 24</msg>
+<status status="PASS" endtime="20131007 09:49:06.759" starttime="20131007 09:49:05.743"></status>
 </kw>
-<status status="FAIL" endtime="20131005 08:49:59.833" starttime="20131005 08:49:58.809"></status>
+<kw type="kw" name="BuiltIn.Set Suite Variable">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${bowled}</arg>
+</arguments>
+<msg timestamp="20131007 09:49:06.761" level="INFO">${bowled} = 24</msg>
+<status status="PASS" endtime="20131007 09:49:06.761" starttime="20131007 09:49:06.760"></status>
+</kw>
+<status status="PASS" endtime="20131007 09:49:06.761" starttime="20131007 09:49:05.742"></status>
+</kw>
+<kw type="kw" name="Then I should score a 24">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Should Be Equal">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${bowled}</arg>
+<arg>${score}</arg>
+</arguments>
+<msg timestamp="20131007 09:49:06.762" level="INFO">Argument types are:
+&lt;type 'str'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20131007 09:49:06.762" starttime="20131007 09:49:06.762"></status>
+</kw>
+<status status="PASS" endtime="20131007 09:49:06.762" starttime="20131007 09:49:06.761"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" endtime="20131005 08:49:59.834" critical="yes" starttime="20131005 08:49:58.808">AssertionError</status>
+<status status="PASS" endtime="20131007 09:49:06.762" critical="yes" starttime="20131007 09:49:05.741"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="FAIL" endtime="20131005 08:49:59.836" starttime="20131005 08:49:50.458"></status>
+<status status="PASS" endtime="20131007 09:49:06.764" starttime="20131007 09:48:57.435"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="FAIL" endtime="20131005 08:49:59.840" starttime="20131005 08:49:50.433"></status>
+<status status="PASS" endtime="20131007 09:49:06.768" starttime="20131007 09:48:57.411"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="1" pass="8">Critical Tests</stat>
-<stat fail="1" pass="8">All Tests</stat>
+<stat fail="0" pass="9">Critical Tests</stat>
+<stat fail="0" pass="9">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat fail="1" pass="8" id="s1" name="Coconuts">Coconuts</stat>
-<stat fail="1" pass="8" id="s1-s1" name="Accept">Coconuts.Accept</stat>
+<stat fail="0" pass="9" id="s1" name="Coconuts">Coconuts</stat>
+<stat fail="0" pass="9" id="s1-s1" name="Accept">Coconuts.Accept</stat>
 </suite>
 </statistics>
 <errors>

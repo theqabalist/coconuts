@@ -5,6 +5,7 @@
               tail (-> coll rest rest)]
               (cond
                   (= [] coll) :empty
+                  (and (= 10 (+ one two)) (= [] tail)) :partial-spare
                   (= 3 (count coll)) :irregular-tenth
                   (= 10 one) :strike
                   (= 10 (+ one two)) :spare
@@ -15,6 +16,7 @@
 (defmethod calculate-score :strike [coll]
     (let [tail (rest coll)]
         (+ 10 (first tail) (-> tail rest first) (calculate-score tail))))
+(defmethod calculate-score :partial-spare [coll] 10)
 (defmethod calculate-score :spare [coll]
     (let [tail (-> coll rest rest)]
         (+ 10 (first tail) (calculate-score tail))))
