@@ -38,7 +38,14 @@ Partial Game, No Strikes, Spare at the End
     When I bowl "(5 5 4 6)"
     Then I should score a 24
 
+Incremental Game
+    When I incrementally bowl "10 9 1 8 1 7 1 10 10 10 9 1 8 2 9 1 2 ^C"
+    Then I should score "20\n38\n47\n55\n85\n114\n134\n152\n171\n183"
+
 *** Keywords ***
 I bowl "${struct_as_string}"     ${bowled}=           bowl           ${struct_as_string}
                                  set suite variable   ${bowled}
+I incrementally bowl "${items}"  ${bowled}=           inc_bowl       ${items}
+                                 set suite variable   ${bowled}
 I should score a ${score:\d+}    should be equal      ${bowled}      ${score}
+I should score "${items}"        should be equal      ${bowled}      ${items}
